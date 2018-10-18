@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CV templete</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+	<script src="slick-1.6.0/slick/slick.js"></script>
+	<script src="imagesloaded.pkgd.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Lato|Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fa-icon/css/font-awesome.css">
+	<link rel="stylesheet" href="1.css">
+	<script src="1.js"></script>
+
+	<!-- **Preloading Page Style ** -->
+	<style>
+	/* Paste this css to your style sheet file or under head tag */
+	/* This only works with JavaScript, 
+	if it's not present, don't show loader */
+	.no-js #loader { display: none;  }
+	.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+	.se-pre-con {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		visibility: hidden;
+		background: url(images/loader-128x/Preloader_2.gif) center no-repeat #fff;
+	}
+
+		body{
+			background: url('images/pa.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		#main{
+			margin-top: 150px;
+			position: fixed;
+			left: -20%;
+			top: 0;
+			z-index: 99999;
+		}
+		.panel-kim .panel-heading{
+			background:  #2c3e50;
+			color: white;
+		}
+		.panel-kim{
+			border: none;
+		}
+	</style> <!-- End Preloading page -->
+
+</head>
+<body>
+	<!-- Login HTML  -->
+	
+	<section id="main" title="Login">
+	<!-- Container -->
+		<div class="container">	
+		<!-- Start Row -->
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+				<!-- Create Panel -->
+					<div class="panel panel-kim">
+						<div class="panel-heading">
+							<h4>Login</h4>
+						</div>
+						<div class="panel-body">
+							<form id="form-login" action="" method="POST" role="form">
+								<div id="errors">
+									
+								</div>
+								<div class="form-group">
+									<label for="username">Username</label>
+									<input type="text" class="form-control" id="username" placeholder="Type your username">
+								</div>
+							
+								<div class="form-group">
+									<label for="password">Password</label>
+									<input type="password" class="form-control" id="password" placeholder="Type your password">
+								</div>
+							
+								<div class="row">
+									<div class="col-md-6">
+										<button type="submit" class="btn btn-primary btn-block">Submit</button>
+									</div>
+									<div class="col-md-6">
+										<a href="forgot.html" class="btn btn-blink"> Forgot Your Password</a>
+									</div>
+									<div>
+										<p>Username vs password : tienptit</p>
+									</div>
+								</div>
+								
+							</form>
+						</div>	<!--End Panel-->
+					</div>	<!--End col-->
+				</div> <!--End container-->
+			</div>	<!--End Row-->
+		</div>
+
+	</section> 
+	
+	<!-- End Login  -->
+	<!-- ***** Preloading page ***** -->
+	<div class="se-pre-con"></div>
+	<!-- **** End Preloading page *** -->
+	<!-- Main Page -->
+	<div class="main-html" style="visibility: hidden;">
+	<!-- *******Start Header - Navbar ***** -->
+	<header id="header">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="logo"></a>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div id="my-nav">
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">About Me</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#service">Services</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#pricing">Pricing</a></li>
+						<li><a href="#client">Clients</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- *********** End Header- Navbar ******** -->
+	<!-- ****** Start Banner ********* -->
+	<section id="banner" class="first-banner">
+		<div class="banner">
+			<div class="container">
+				<div class="banner_content">
+					<h4>hi there! i am</h4>
+					<h2>nguyen chi tien</h2>
+					<p>A Front-End Developer</p>
+					<ul>
+						<li><a href="https://facebook.com/tienptit" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://facebook.com/tienptit" target="_blank"><i class="fa fa-twitter" ></i></a></li>
+						<li><a href="https://facebook.com/tienptit" target="_blank"><i class="fa fa-instagram" ></i></a></li>
+						<li><a href="https://facebook.com/tienptit" target="_blank"><i class="fa fa-youtube-play" ></i></a></li>
+						<li><a href="https://facebook.com/tienptit" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ********* End Banner *********** -->
+
+	<!-- ****** About Me ********** -->
+	<section id="about" class="main-aboutme">
+		<div class="container">
+			<div class="row">
+			<!-- **** About Me Detail ******* -->
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="about-header">
+						<h2>About me</h2>
+						<p><em>You can know who I am and what is my Hobbies. I hope it will help you for our Friendship. </em></p>
+					</div>
+					<div class="about-details">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						<ul>
+							<li><p>Name  <span>:</span> </p> <span>Nguyen Chi Tien</span></li> 
+							<li><p>Phone  <span>:</span> </p> <span>+AB 1683258xxxx</span></li> 
+							<li><p>Email <span>:</span> </p> <span>contact@yourmail.com</span></li> 
+							<li><p>Address  <span>:</span> </p> <span>Viet Nam, Ha Noi</span></li>
+							<li><p>Date of Birth  <span>:</span> </p> <span>16 Feb 1997</span></li> 
+							<li><p>Website  <span>:</span> </p> <span>ThisIsBullShit.com</span></li> 
+							<li><p>Freelance  <span>:</span> </p> <span>Available</span></li> 
+						</ul>
+					</div>
+				</div>
+			<!-- ****** End About me Details***** -->
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="about-job">
+						<h3>What can i do ?</h3>
+						<ul>
+							<li><i class="fa fa-desktop"></i>
+								<p>Graphic Design</p>
+							</li>
+							<li><i class="fa fa-code"></i>
+								<p>Graphic Design</p>
+							</li>
+							<li><i class="fa fa-camera"></i>
+								<p>Graphic Design</p>
+							</li>
+						</ul>
+					</div>
+					<div class="about-skills">
+						<h3>My Skills</h3>
+						<div class="skills_progress">
+							<div class="progress_item">
+								<p class="progress_title">Photoshop</p>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" data-transitiongoal="92" aria-valuenow="92" style="width: 92%";>
+										<i class="fa fa-cirle-o"></i>
+									</div>
+								</div>
+								<p class="progress_percent">92%</p>
+							</div>
+
+							<div class="progress_item">
+								<p class="progress_title">HTML5/CSS3</p>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" data-transitiongoal="86" aria-valuenow="86" style="width: 86%";>
+										<i class="fa fa-cirle-o"></i>
+									</div>
+								</div>
+								<p class="progress_percent">86%</p>
+							</div>
+
+							<div class="progress_item">
+								<p class="progress_title">Javascript</p>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" data-transitiongoal="42" aria-valuenow="92" style="width: 42%";>
+										<i class="fa fa-cirle-o"></i>
+									</div>
+								</div>
+								<p class="progress_percent">42%</p>
+							</div>
+
+							<div class="progress_item">
+								<p class="progress_title">Jquery</p>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" data-transitiongoal="62" aria-valuenow="62" style="width: 62%";>
+										<i class="fa fa-cirle-o"></i>
+									</div>
+								</div>
+								<p class="progress_percent">62%</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- *********** End About Me ********** -->
+	<!-- ********* REsume Me ********** -->
+	<section id="resume" class="main-resume">
+		<div class="container">
+			<div class="resume_header">
+				<h2>Resume</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+			<div class="resume_items">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<h3>Education Experience</h3>
+						<div class="experiences left">
+							<div class="experience">
+								<h4>Lorem Ipsum</h4>
+								<p>"PTIT University /"
+								<span>Aug 2015 - Dec 2020</span>
+							 	</p>
+								<p class="ex_details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							</div>
+
+							<div class="experience">
+								<h4>Lorem Ipsum</h4>
+								<p>"PTIT University /"
+								<span>Aug 2015 - Dec 2020</span>
+							 	</p>
+								<p class="ex_details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							</div>
+
+							<div class="experience">
+								<h4>Lorem Ipsum</h4>
+								<p>"PTIT University /"
+								<span>Aug 2015 - Dec 2020</span>
+							 	</p>
+								<p class="ex_details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							</div>
+
+							<div class="experience">
+								<h4>Lorem Ipsum</h4>
+								<p>"PTIT University /"
+								<span>Aug 2015 - Dec 2020</span>
+							 	</p>
+								<p class="ex_details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<h3>Working experience</h3>
+						<div class="experiences right">
+							<div class="experience">
+								<h4>Lorem Ipsum</h4>
+								<p>"PTIT University /"
+								<span>Aug 2015 - Dec 2020</span>
+							 	</p>
+								<p class="ex_details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							</div>
+							<div class="experience">
+								<h4>Lorem Ipsum</h4>
+								<p>"PTIT University /"
+								<span>Aug 2015 - Dec 2020</span>
+							 	</p>
+								<p class="ex_details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							</div>
+							<div class="experience">
+								<h4>Lorem Ipsum</h4>
+								<p>"PTIT University /"
+								<span>Aug 2015 - Dec 2020</span>
+							 	</p>
+								<p class="ex_details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							</div>
+							<div class="experience">
+								<h4>Lorem Ipsum</h4>
+								<p>"PTIT University /"
+								<span>Aug 2015 - Dec 2020</span>
+							 	</p>
+								<p class="ex_details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ******* End Resume Me *********** -->
+
+	<!-- ******* Portfolio ************** -->
+	<section id="portfolio" class="main-portfolio">
+		<div class="container">
+			<div class="portfolio_header">
+				<h2>Portfolio</h2>
+			</div>
+			<ul class="portfolio_menu">
+				<li class="active"><a href="*">All Items</a></li>
+				<li><a href=".design">Design</a></li>
+				<li><a href=".illustration">Illustration</a></li>
+				<li><a href=".photography">Photography</a></li>
+				<li><a href=".vector">Vector</a></li>
+			</ul>
+			<div class="portfolio_items" style="position: relative; height:auto;">
+
+				<div class="portfolio_item design">
+					<div class="img_item">
+						<img src="images/portfolio_01.jpg" alt="">
+							<div class="overlay"></div>
+						<div class="port_caption">
+							<a href="#">
+								<i class="fa fa-search"></i>
+							</a>
+							<h4>Project Title Goes Here</h4>
+							<p>Design</p>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio_item photography">
+					<div class="img_item">
+						<img src="images/portfolio_02.jpg" alt="">
+							<div class="overlay"></div>
+						<div class="port_caption">
+							<a href="#">
+								<i class="fa fa-search"></i>
+							</a>
+							<h4>Project Title Goes Here</h4>
+							<p>Photography</p>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio_item vector">
+					<div class="img_item">
+						<img src="images/portfolio_03.jpg" alt="">
+							<div class="overlay"></div>
+						<div class="port_caption">
+							<a href="#">
+								<i class="fa fa-search"></i>
+							</a>
+							<h4>Project Title Goes Here</h4>
+							<p>Vector</p>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio_item design">
+					<div class="img_item">
+						<img src="images/portfolio_04.jpg" alt="">
+							<div class="overlay"></div>
+						<div class="port_caption">
+							<a href="#">
+								<i class="fa fa-search"></i>
+							</a>
+							<h4>Project Title Goes Here</h4>
+							<p>Design</p>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio_item illustration">
+					<div class="img_item">
+						<img src="images/portfolio_05.jpg" alt="">
+							<div class="overlay"></div>
+						<div class="port_caption">
+							<a href="#">
+								<i class="fa fa-search"></i>
+							</a>
+							<h4>Project Title Goes Here</h4>
+							<p>Illustration</p>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio_item photography">
+					<div class="img_item">
+						<img src="images/portfolio_06.jpg" alt="">
+							<div class="overlay"></div>
+						<div class="port_caption">
+							<a href="#">
+								<i class="fa fa-search"></i>
+							</a>
+							<h4>Project Title Goes Here</h4>
+							<p>Photography</p>
+						</div>
+					</div>
+				</div>
+			</div> <!-- End items -->
+		</div> <!-- End container  -->
+	</section>
+	<!-- ******* End Portfolio ******** -->
+
+	<!-- ****** Services ********** -->
+	<section id="service" class="main-service">
+		<div class="container">
+			<div class="service-header">
+				<h2>Services</h2>
+				<p><em>You can know who i am and what is my Hobbies. I hope it will help you for our Friendshiop.</em></p>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="service_item">
+						<div class="service-icon">
+							<i class="fa fa-desktop"></i>
+						</div>
+						<div class="service-details">
+							<h4>Web Design</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="service_item">
+						<div class="service-icon">
+							<i class="fa fa-laptop"></i>
+						</div>
+						<div class="service-details">
+							<h4>Web Development</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="service_item">
+						<div class="service-icon">
+							<i class="fa fa-camera-retro"></i>
+						</div>
+						<div class="service-details">
+							<h4>Graphic Design</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="service_item">
+						<div class="service-icon">
+							<i class="fa fa-bar-chart"></i>
+						</div>
+						<div class="service-details">
+							<h4>Internet Marketing</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="service_item">
+						<div class="service-icon">
+							<i class="fa fa-camera"></i>
+						</div>
+						<div class="service-details">
+							<h4>Digital Photography</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="service_item">
+						<div class="service-icon">
+							<i class="fa fa-spinner"></i>
+						</div>
+						<div class="service-details">
+							<h4>Amazone Affiliate</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ********* End Services ******** -->
+
+	<!-- ****** Blog ************* -->
+	<section id="blog" class="main-blog">
+		<div class="container">
+			<div class="blog-header">
+				<h2>Recent Blog</h2>
+				<p><em>You can know who i am and what is my Hobbies. I hope it will help you for our Friendshiop.</em></p>
+			</div>
+			<div class="row">
+				<!-- Blog Item 1  -->
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="blog_items">
+						<div class="blog_img">
+							<a href="#"><img src="images/blog_02.jpg" alt=""></a>
+						</div>
+						<div class="blog_content">
+							<h4><a href="#">Dynamical Generate Multifunction Expertise.</a></h4>
+							<p>Uniquely conceptualize visionary process improvements with tactical communities. Dramatically empower e-business action items without effective scenarios. Conveniently repurpose principle centered quality vectors with out-of-the-box scenarios.</p>
+							<ul class="post-meta">
+								<li>
+									<span class="posted-on">
+										Posted On:
+										<a href="#">
+											<time class="entry-date published" datetime ="2017-04-15T10:26:27+00:00">April 15,2017</time>
+											<time class="updated" datetime="2017-05-07T04:35:14+00:00">May 07,2017</time>
+										</a>
+									</span>
+									<span>|</span>
+								</li>
+								<li><a href="#">No comments</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+				<!-- Blog item 2 -->
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="blog_items">
+						<div class="blog_img">
+							<a href="#"><img src="images/post_01.jpg" alt=""></a>
+						</div>
+						<div class="blog_content">
+							<h4><a href="#">Dynamical Generate Multifunction Expertise.</a></h4>
+							<p>Uniquely conceptualize visionary process improvements with tactical communities. Dramatically empower e-business action items without effective scenarios. Conveniently repurpose principle centered quality vectors with out-of-the-box scenarios.</p>
+							<ul class="post-meta">
+								<li>
+									<span class="posted-on">
+										Posted On:
+										<a href="#">
+											<time class="entry-date published" datetime ="2017-04-15T10:26:27+00:00">April 15,2017</time>
+											<time class="updated" datetime="2017-05-07T04:35:14+00:00">May 07,2017</time>
+										</a>
+									</span>
+									<span>|</span>
+								</li>
+								<li><a href="#">No comments</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+	<!-- *********** End Blog ******* -->
+	<!-- ***** Pricing Table *********** -->
+	<section id="pricing" class="main-pricing">
+		<div class="container">
+			<div class="pricing-header">
+				<h2>Prcing Table</h2>
+				<p><em>You can know who i am and what is my Hobbies. I hope it will help you for our Friendshiop.</em></p>
+			</div>
+			<!-- ** Items ** -->
+			<div class="pricing_items">
+				<div class="pricing_title">
+					<h3>Basic Plan</h3>
+					<div class="pricing-icons">
+						<i class="fa fa-plane"></i>
+					</div>
+				</div>
+				<div class="pricing_des">
+					<span class="corner-style"></span>
+					<span class="corner-style2"></span>
+					<div>
+						<p><span>Design Structure : </span>We must provide you the idea or sketch files for design structure. You can design this as you like best.</p>
+						<p><span>Images File : </span>We also provide you all the Image files.</p>
+						<p><span>PSD Files : </span>You can’t access any PSD files</p>
+						<p><span>HTML & CSS File : </span>No HTML & CSS files you can acces</p>
+					</div>
+				</div>
+				<div class="pricing_price">
+					<h2>$199</h2>
+					<p>Per Month</p>
+				</div>
+			</div> <!-- End Items -->
+			<!-- ** Items ** -->
+			<div class="pricing_items">
+				<div class="pricing_title">
+					<h3>Standard Plan</h3>
+					<div class="pricing-icons">
+						<i class="fa fa-plane"></i>
+					</div>
+				</div>
+				<div class="pricing_des">
+					<span class="corner-style"></span>
+					<span class="corner-style2"></span>
+					<div>
+						<p><span>Design Structure : </span>We must provide you the idea or sketch files for design structure. You can design this as you like best.</p>
+						<p><span>Images File : </span>We also provide you all the Image files.</p>
+						<p><span>PSD Files : </span>You can’t access any PSD files</p>
+						<p><span>HTML & CSS File : </span>No HTML & CSS files you can acces</p>
+					</div>
+				</div>
+				<div class="pricing_price">
+					<h2>$259</h2>
+					<p>Per Month</p>
+				</div>
+			</div> <!-- End Items -->
+			<!-- ** Items ** -->
+			<div class="pricing_items">
+				<div class="pricing_title">
+					<h3>Advance Plan</h3>
+					<div class="pricing-icons">
+						<i class="fa fa-plane"></i>
+					</div>
+				</div>
+				<div class="pricing_des">
+					<span class="corner-style"></span>
+					<span class="corner-style2"></span>
+					<div>
+						<p><span>Design Structure : </span>We must provide you the idea or sketch files for design structure. You can design this as you like best.</p>
+						<p><span>Images File : </span>We also provide you all the Image files.</p>
+						<p><span>PSD Files : </span>You can’t access any PSD files</p>
+						<p><span>HTML & CSS File : </span>No HTML & CSS files you can acces</p>
+					</div>
+				</div>
+				<div class="pricing_price">
+					<h2>$399</h2>
+					<p>Per Month</p>
+				</div>
+			</div> <!-- End Items -->
+		</div>
+	</section>
+	<!-- ******** End Pricing Table ******* -->
+
+	<!-- ******* Client ********* -->
+	<section id="client" class="main-client padding_140">
+		<div class="container">
+			<div class="client-header">
+				<h2>Client</h2>
+				<p><em>You can know who i am and what is my Hobbies. I hope it will help you for our Friendshiop.</em></p>
+			</div>
+			<div class="client-items">
+				<div class="slick-track-img">
+					<div class="client-img">
+						<img class="img img-responsive" src="images/clients/client_01.jpg" alt="">
+					</div>
+					<div class="client-img">
+						<img class="img img-responsive" src="images/clients/client_02.jpg" alt="">
+					</div>
+					<div class="client-img">
+						<img class="img img-responsive"  src="images/clients/client_03.jpg" alt="">
+					</div>
+					<div class="client-img">
+						<img class="img img-responsive" src="images/clients/client_04.jpg" alt="">
+					</div>
+					<div class="client-img">
+						<img class="img img-responsive" src="images/clients/client_01.jpg" alt="">
+					</div>
+					<div class="client-img">
+						<img class="img img-responsive" src="images/clients/client_02.jpg" alt="">
+					</div>
+					<div class="client-img">
+						<img class="img img-responsive"  src="images/clients/client_03.jpg" alt="">
+					</div>
+					<div class="client-img">
+						<img class="img img-responsive" src="images/clients/client_04.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ********** End Client ********* -->
+
+	<!-- ********* Contact ********** -->
+	<section id="contact" class="main-contact padding_140">
+		<div class="container">
+			<div class="contact-header">
+				<h2>Get in touch</h2>
+				<p><em>You can know who i am and what is my Hobbies. I hope it will help you for our Friendshiop.</em></p>
+			</div>
+			<div class="contact-me">
+				<div class="contact-info">
+					<div class="contact-item">
+						<div class="contact-icon">
+							<i class="fa fa-phone"></i>
+						</div>
+						<div class="contact-details">
+							<p>+1234567899</p>
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="contact-icon">
+							<i class="fa fa-envelope-o"></i>
+						</div>
+						<div class="contact-details">
+							<p>TienAbc@gmail.com</p>
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="contact-icon">
+							<i class="fa fa-home"></i>
+						</div>
+						<div class="contact-details">
+							<p>Ha Noi Viet Nam</p>
+						</div>
+					</div>
+				</div>
+				<!-- End contact -->
+
+				<!-- Form Contact -->
+				<div class="form-contact">
+					<form action="" method="POST" role="form">
+						<legend>Contact Me</legend>
+					
+						<div class="form-group">
+							<label for="">Your Name</label>
+							<input type="text" class="form-control" id="" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<label for="">Message</label>
+							<input type="text" class="form-control" id="" placeholder="Your Message">
+						</div>
+						<div class="form-group">
+							<label for="">Phone</label>
+							<input type="text" class="form-control" id="" placeholder="Your Phone">
+						</div>
+						<div class="form-group">
+							<label for="">Email</label>
+							<input type="email" class="form-control" id="" placeholder="Your Email">
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- *********** End contact ************ -->
+	<!-- ***** Footer ***** -->
+	<footer id="footer" class="main-footer">
+		<p>
+			© copyright 
+			<a href="https://www.facebook.com/tienptit">Nguyen Chi Tien</a>
+			
+		</p>
+	</footer>
+	<!-- ***** End Footer ******* -->
+	</div> <!-- End Main Page --> 
+</body>
+</html>

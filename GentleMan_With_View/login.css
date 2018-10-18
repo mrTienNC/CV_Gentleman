@@ -1,0 +1,14 @@
+body{
+	background-color: #34495e;
+}
+
+#main{
+	margin-top: 150px;
+}
+.panel-kim .panel-heading{
+	background: #2c3e50;
+	color: white;
+}
+.panel-kim{
+	border: none;
+}
